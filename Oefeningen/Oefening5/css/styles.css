@@ -32,6 +32,7 @@ h2 {
     margin: 20px 500px 10px 100px;
     padding: 20px 50px 20px 50px;
     border-radius: 20px;
+    border: solid 10px rgb(245, 233, 233);
 }
 
 .over-mij2 {
@@ -41,6 +42,7 @@ h2 {
     margin: 20px 100px 0 300px;
     padding: 20px 50px 20px 50px;
     border-radius: 20px;
+    border: solid 10px rgb(240, 179, 179);
 }
 
 .over-mij3 {
@@ -50,6 +52,7 @@ h2 {
     margin: 20px 500px 10px 100px;
     padding: 20px 50px 20px 50px;
     border-radius: 20px;
+    border: solid 10px rgb(136, 129, 129);
 }
 
 .nav-links {
