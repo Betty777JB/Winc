@@ -1,7 +1,7 @@
 body {
     background-color: #070106;
     margin: 0;
-    text-align: center;
+
     font-family: 'Merriweather', serif;
 }
 
@@ -11,11 +11,9 @@ body {
     }
 }
 
-/*.box1 img {
-    position: relative; */
-/* padding-bottom: 10px; */
-/* padding-top: 30px; */
-/* align-items: center;} */
+.box1 {
+    text-align: center;
+}
 h1 {
     font-size: 1.5em;
     color: rgb(228, 228, 236);
@@ -89,6 +87,8 @@ p {
         line-height: 25px;
     }
 }
+
+
 
 .nav-links {
     font-size: 1.2em;

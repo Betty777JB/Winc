@@ -1,0 +1,27 @@
+.blog-container{
+display: flex;
+padding-top: 20px;
+/* flex-flow: row wrap; */
+/* align-items: stretch; */
+justify-content: space-around;
+
+}
+
+.blogpost  {
+width: 300px;
+border: 5px solid black;
+padding: 5px;
+flex-grow: 1;
+}
+
+.blogtegel1{
+     order: 4;
+    align-self: flex-end;
+
+}
+.blogtegel4{
+order:3;
+}
+.blogtegel5{
+align-self: stretch;
+}
