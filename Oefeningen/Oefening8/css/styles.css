@@ -1,7 +1,7 @@
 body {
     background-color: #070106;
     margin: 0;
-    text-align: center;
+    align-items: center;
     font-family: 'Merriweather', serif;
 }
 
@@ -36,6 +36,9 @@ h1 {
     }
 }
 
+
+
+
 .over-mij1 {
     /* line-height: 20px; */
     color: rgb(230, 230, 233);
@@ -46,6 +49,8 @@ h1 {
     border-radius: 20px;
     border: solid 3px rgb(245, 233, 233);
     text-align: left;
+    font-size: 1.1em;
+    line-height: 40px;
 }
 
 .over-mij2 {
@@ -57,6 +62,8 @@ h1 {
     border-radius: 20px;
     border: solid 3px rgb(240, 179, 179);
     text-align: left;
+    font-size: 1.1em;
+    line-height: 40px;
 }
 
 .over-mij3 {
@@ -68,24 +75,23 @@ h1 {
     border-radius: 20px;
     border: solid 3px rgb(136, 129, 129);
     text-align: left;
-}
-
-p {
     font-size: 1.1em;
     line-height: 40px;
 }
 
+
+
 /* media queries voor p  */
 @media screen and (min-width:768px) {
-    p {
-        font-size: 1.3em;
+    .over-mij1, .over-mij2, .over-mij3 {
+        font-size: 1.4em;
         line-height: 25px;
     }
 }
 
 @media screen and (min-width:1024px) {
-    p {
-        font-size: 1.4em;
+    .over-mij1, .over-mij2, .over-mij3 {
+        font-size: 2em;
         line-height: 25px;
     }
 }
