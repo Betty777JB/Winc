@@ -5,12 +5,8 @@ body {
 
 .container {
     display: grid;
-    /* height: 100vh; */
     grid-auto-columns: auto;
-     grid-template-rows: 50px 300px 100px 50px;
-    /* grid-template-columns: repeat(1, fr); */
-    /* grid-template-rows: 0.3fr 1fr 1fr 0.8fr; */
-
+    grid-template-rows: 50px 300px 100px 50px;
     grid-gap: 5px;
     font-size: 2em;
     text-align:center;
@@ -19,7 +15,11 @@ body {
      "main"
      "widget"
      "footer";
-}
+     }
+     /* height: 100vh; */
+     /* grid-template-columns: repeat(1, fr); */
+     /* grid-template-rows: 0.3fr 1fr 1fr 0.8fr; */
+
     /* text-transform: uppercase;
     0.2fr 0.5fr 1.2fr 0.8fr*/
     /* text-align: center;
@@ -52,25 +52,25 @@ body {
 .footer {
     background: blue;
     grid-area: footer;
-
 }
+
 @media screen and (min-width:500px) {
   .container {
           grid-template-areas:
            'header main'
-           'header widgets'
+           'header widget'
            'header footer';
     grid-template-columns: 33% auto;
     grid-template-rows: 350px 100px 50px;
     }
 }
 
-@media only screen and (min-width:900px) {
+@media screen and (min-width:900px) {
   .container {
          grid-template-areas:
-         'header main widgets'
-         'header main widgets'
-         'header footer widgets';
+         'header main widget'
+         'header main widget'
+         'header footer widget';
     grid-template-columns: 25% auto 25%;
     grid-template-rows: 450px 50px;
         }
