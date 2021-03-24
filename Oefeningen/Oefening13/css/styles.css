@@ -5,12 +5,19 @@ body {
 
 .container {
     display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(4, fr);
+    /* height: 100vh; */
+    grid-auto-rows: auto;
+    /* grid-template-columns: repeat(1, fr); */
     grid-template-rows: 0.3fr 1fr 1fr 0.8fr;
     grid-gap: 5px;
     font-size: 2em;
     text-align: center;
+    grid-template-areas:
+     "header"
+     "header"
+     "widget"
+     "header"
+     "footer";
 }
     /* text-transform: uppercase;
     0.2fr 0.5fr 1.2fr 0.8fr*/
@@ -25,7 +32,7 @@ body {
 
 .header {
     background: green;
-    grid-area: main;
+    grid-area: header;
     /* border-radius: var(--main-radius);
  padding-top: var(--main-padding); */
 }
