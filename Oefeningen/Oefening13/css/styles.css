@@ -54,26 +54,22 @@ grid-area: widget;
 grid-area: footer;
 
 }
+@media (min-width:500px) {
+  .grid-container {
+          grid-template-areas:
+           'header main'
+           'header widgets'
+           'header footer';
+    grid-template-columns: 33% auto;
+    grid-template-rows: 350px 100px 50px;
+    }
+}
 
 
- @media  only screen and (max-width:540px) {
+ /* @media  only screen and (max-width:540px) {
 
 .container {
   grid-template-columns: 1fr;
   grid-template-rows: 0.2fr 1.5fr 0.7fr 0.3fr ;
 
-}
-}
-@media and (min-width:540px) {
-
-.container {
- grid-template-areas:
-  "header main"
-  "header widget"
-  "header footer";
-  grid-template-columns: 33% auto;
-  grid-auto-rows: 350px 100px 50px;
-
-
-}
 }
